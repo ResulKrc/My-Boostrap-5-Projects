@@ -1,0 +1,16 @@
+
+.container {
+    main {
+        width: 100%;
+        min-height: 89vh;
+    }
+
+    article {
+        img {
+            display: inline-block;
+            width: 100%;
+            height: 175px;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+
+.container {
+    main {
+        width: 100%;
+        min-height: 89vh;
+
+        
+    }
+}
+
+@media (max-width:768px ) {
+    html {
+        font-size: 0.8rem;
+    }
+}
