@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="images/icon-3.ico" type="image/x-icon">
+
+    <title>RK Learning</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md container d-flex bg-danger navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="homepage.html"><img src="/images/logo.jpg" alt="logo" style="width: 60px;" class="rounded"></a>
+        <span class="navbar-text ms-3">"Geleceğin Burda"</span>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-5 " id="myCollapse">
+            <div class="navbar-nav">
+            <a class="nav-item nav-link" href="homepage.html">Anasayfa</a>
+            <a class="nav-item nav-link" href="kurslar.html">Kurslar</a>
+            <a class="nav-item nav-link" href="egitmenler.html">Eğitmenler</a>
+            <a class="nav-item nav-link active" href="hakkimizda.html">Hakkımızda</a>
+            <a class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#myModal" href="#">İletişim</a>
+        </div>
+        </div>
+    </nav>
+    <div class="modal was-validated" id="myModal" data-bs-theme="dark">
+        <div class="modal-dialog dialog modal-fullscreen-sm-down modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Bana Ulaşın</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group mb-4">
+                        <label for="name" class="input-group-text">İsim</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">* Zorunlu alan</div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label for="email" class="input-group-text">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">* Zorunlu alan</div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label for="message" class="input-group-text">Mesajınız</label>
+                        <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız" required></textarea>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">* Zorunlu alan</div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger">Gönder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <section class="d-flex justify-content-center align-items-center flex-column">
+            <img src="images/logo.jpg" alt="logo foto" class="w-50 img-thumbnail my-3">
+            <p class="text-center">RK Eğitim 2025 yılında Resul Karaca tarafından Gebze'de kurulmuştur.Firmamız 3 farklı alanda ileri seviyede eğitimler vermektedir.Şuana kadar 50+ kişi ve 3 kuruma ileri seviye eğitimler verdik.Her geçen gün gelişmeye ve büyümeye devam ediyoruz.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="pagination pagination-lg justify-content-center mt-5 ">
+            <a class="page-item page-link " href="homepage.html">1</a>
+            <a class="page-item page-link " href="kurslar.html">2</a>
+            <a class="page-item page-link " href="egitmenler.html">3</a>
+            <a class="page-item page-link bg-danger text-light" href="hakkimizda.html">4</a>
+        </div>
+        <div class="links text-center bg-dark d-flex  justify-content-center align-items-center" style="height: 50px;">
+           
+                <span class="text-light me-5">Tüm hakları saklıdır.</span>
+                <a href="#"><i class="fa-brands fa-instagram text-light me-5"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter text-light me-5"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in text-light me-5"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
